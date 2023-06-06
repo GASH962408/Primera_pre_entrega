@@ -8,5 +8,5 @@ app.use(express.json());
 app.use('/api/products', productRouter);
 app.use('/api/carts', cartRouter);
 
-// Escucho en el servidor 3000:
+// Escucho en el servidor 8080:
 app.listen(8080, () => console.log('Escuchando al servidor'));
